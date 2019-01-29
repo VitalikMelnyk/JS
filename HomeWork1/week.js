@@ -52,5 +52,5 @@ function weekDay2(){
 }
 
 
-alert(weekDay1());
-alert(weekDay2());
+console.log(weekDay1());
+console.log(weekDay2());
