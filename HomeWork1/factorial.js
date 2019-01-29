@@ -9,4 +9,4 @@ function factorial(n){
 		return n * factorial(n - 1);
 	}
 }
-alert(factorial());
+alert(factorial(n));
