@@ -1,10 +1,8 @@
-var str = "wfegerxxxxxXXX XXxjnm viagra ViagRA   srgqerq";
+var str = " ";
 
 
 function checkSpam(){
-    if(str == "viagra" || str == "xxx" )}{
-        return true;
-    }
-    else{
-    }
+    var lowStr = str.toLowerCase();
+    return Boolean(~lowStr.indexOf(("xxx") || ~lowStr.indexOf("viagra")));
 }
+console.log(checkSpam(str))

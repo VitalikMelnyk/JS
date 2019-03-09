@@ -1,0 +1,1 @@
+console.log("Capacity of coffee-maker : " + power);
