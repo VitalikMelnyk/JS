@@ -1,12 +1,13 @@
-var date = new Date(2000, 1, 17);
+var date = new Date();
 
-function getLocalDay(date){
+function getLocalDate(date){
     var day = date.getDay();
 
     if(day == 0) {
         return day == 7;
     }
+
     return day;
 }
 
-console.log(getLocalDay(date))
+console.log(getLocalDate(date));

@@ -1,10 +1,11 @@
 var date = new Date();
+
 var options = {
-    weekday : "short"
+    weekday : "long"
 };
 
 function getWeekDay(date) {
-    return date.toLocaleString('ukr', options);
+    return date.toLocaleString("eng",options);
 }
 
 console.log(getWeekDay(date));

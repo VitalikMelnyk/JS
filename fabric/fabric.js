@@ -1,13 +1,21 @@
 function Article() {
     this.created = new Date();
-
-    showStats = function() {
         
+    Article.count++;
+    Article.last = this.created;
+
+    Article.count = 0;
+
+    Article.showStats = function() {
+        console.log(this.count + " " + this.last);
     }
+
+
 }
+new Article();
+new Article();
+Article.showStats();
 
+new Article();
 
-
-
-
-var user = new Article();
+Article.showStats();    
